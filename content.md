@@ -115,6 +115,27 @@ Here is the flow chart of a transaction lifecycle:
   <img src="sandbox_sending_a_tx.png" alt="tx_lifecycle"/>
 </div>
 
+## **Interesting ideas to build on Aztec!**
+
+Aztec Network with its inherent private state can be leveraged to build deep(complete privacy) anonymous protocols onchain. Some ideas are listed below;
+
+**Private DEX:** A decentralized exchange which lets users exchange their assets in anonymous manner. Some existing projects: [Shieldswap,](https://app.shieldswap.org/) [AztecGravix](https://github.com/AztecGravix).
+
+**Private Oracle:** An oracle service which lets users anonymously query onchain/offchain data onchain. Look at Wonderland’s [private oracle](https://github.com/defi-wonderland/aztec-private-oracle) for example.
+
+**Wallet Infrastructure:** Build a wallet that lets users make private function calls. Look at [Aztec Snap](https://github.com/porco-rosso-j/aztec-snap) for example. Build transaction simulation that will let an user identify the flow of transaction execution and the estimated gas.
+
+**Web2↔Web3 Bridge:** Bring web2 accounts and credentials in anonymous manner enabling web2 identity onchain. Example: Wagmi lab’s [proof of secret](https://github.com/fruity-labs/proof-of-proper-secret).
+
+**Verifiable location:** Anonymously verify that a user is located within the authorized location to provide access using Wagmi lab’s [proof of proximity](https://github.com/fruity-labs/proof-of-proximity).
+
+**Anonymous reputation system:** Build a reputation platform that maintains a set of parameters that determine the reputation score and calculate users’ score using Wagmi lab’s [proof of intersection](https://github.com/fruity-labs/proof-of-intersection).
+
+**Anonymous tracking**: Privately track the individual users’ action and verify onchain. Example: [Green Zktricity](https://github.com/DappaDanDev/green-zktricity_).
+
+Anonymous voting: Build zk voting applications that will let users anonymously create and vote on proposals/polls. Example: [Melo Cafe](https://melo.cafe/).
+
+And, there are many more ideals and toolings available that you can look at [here](https://github.com/AztecProtocol/dev-rel/tree/main/hackathons).
 
 Aztec Network clearly distinguishes from other zk-rollups in every component of a rollup. They call it **zk-zk rollup**. Most of the ideas were inspired from ZCash protocol and Aztec is pretty happy to accept it. Its not only about who invents useful things. Its about who takes that and bring to the masses. Aztec is taking a hard path and looking to succeed in its mission. Huge applauds and respect to those who are willing to build on top of Aztec. Hail Aztec Ecosystem Devs!!
 
